@@ -1,0 +1,82 @@
+# ============================================================
+# .gitignore — NLP Assignments
+# Muhammad Zohair Hassnain | 22F-3150
+# ============================================================
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Virtual Environments ─────────────────────────────────────
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ── Distribution / Packaging ─────────────────────────────────
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Jupyter Notebook ─────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── ML Model Files (large binaries) ─────────────────────────
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+models/*.pkl
+models/*.h5
+
+# ── Data Files (keep only small samples) ────────────────────
+# Allow the phishing sample dataset
+!Assignment-2-Phishing-Detection/data/phishing_dataset.csv
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── OS Generated ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Logs & Reports (generated) ───────────────────────────────
+*.log
+logs/
+*.out
+
+# ── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Misc ─────────────────────────────────────────────────────
+*.bak
+*.tmp
+.cache/

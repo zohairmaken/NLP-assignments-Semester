@@ -1,0 +1,38 @@
+# ============================================================
+# NLP Assignments — Combined Requirements
+# Muhammad Zohair Hassnain | 22F-3150
+# ============================================================
+# Install per-assignment requirements for isolated environments.
+# This file provides a full combined list for reference.
+# ============================================================
+
+# ── Core Data Science ────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+
+# ── NLP — Classical ──────────────────────────────────────────
+nltk>=3.8.0
+
+# ── NLP — Deep Learning (Assignment 2) ──────────────────────
+tensorflow>=2.13.0
+
+# ── NLP — Transformers (Assignment 4) ───────────────────────
+transformers>=4.35.0
+torch>=2.1.0
+datasets>=2.14.0
+
+# ── Explainability (Assignment 4) ────────────────────────────
+shap>=0.43.0
+lime>=0.2.0.1
+bertviz>=1.4.0
+
+# ── UI (Assignment 1) ────────────────────────────────────────
+gradio>=4.0.0
+
+# ── Utilities ────────────────────────────────────────────────
+fpdf>=1.7.2
+notebook>=7.0.0
+ipykernel>=6.25.0
