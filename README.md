@@ -72,7 +72,7 @@ To explore these projects locally, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/NLP-Assignments.git
+git clone https://github.com/zohairmaken/NLP-assignments-Semester.git
 cd NLP-Assignments
 ```
 
@@ -104,8 +104,8 @@ pip install -r requirements.txt
 ## 👤 Author
 
 **Muhammad Zohair Hassnain**  
-GitHub: [@YourGithub](https://github.com/YourGithub)  
-LinkedIn: [Your LinkedIn](https://linkedin.com/in/YourProfile)
+GitHub: [@zohairmaken](https://github.com/zohairmaken)  
+LinkedIn: [Zohair Maken](https://www.linkedin.com/in/zohair-maken-225912297)
 
 ---
 
