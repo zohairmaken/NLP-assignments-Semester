@@ -83,7 +83,7 @@ TF-IDF Vectors              Padded Sequences
 ## 📁 Project Structure
 
 ```
-Assignment-2-Phishing-Detection/
+Assignment-2-Tokenization-and-Stemming/
 │
 ├── src/
 │   ├── preprocessing.py    # Text cleaning and feature extraction (TF-IDF, sequences)
@@ -109,7 +109,7 @@ Assignment-2-Phishing-Detection/
 
 ### Step 1 — Install Dependencies
 ```bash
-cd Assignment-2-Phishing-Detection
+cd Assignment-2-Tokenization-and-Stemming
 pip install -r requirements.txt
 ```
 

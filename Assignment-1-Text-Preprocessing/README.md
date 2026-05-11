@@ -77,7 +77,7 @@ Raw Customer Reviews
 ## 📁 Project Structure
 
 ```
-Assignment-1-NLP-Pipeline/
+Assignment-1-Text-Preprocessing/
 │
 ├── src/
 │   ├── preprocessing.py      # Text cleaning, tokenization, Roman Urdu normalization
@@ -114,7 +114,7 @@ Assignment-1-NLP-Pipeline/
 
 ### Step 1 — Install Dependencies
 ```bash
-cd Assignment-1-NLP-Pipeline
+cd Assignment-1-Text-Preprocessing
 pip install -r requirements.txt
 ```
 

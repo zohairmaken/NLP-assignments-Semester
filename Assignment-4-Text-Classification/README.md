@@ -48,7 +48,7 @@ Fine-tune **DistilBERT** on the Amazon Polarity Dataset for binary sentiment cla
 ## 📁 Project Structure
 
 ```
-Assignment-4-Transformer-Explainability/
+Assignment-4-Text-Classification/
 ├── notebooks/
 │   └── NLP_Assignment_4.ipynb   # Complete Colab notebook
 ├── results/                      # Attention maps, SHAP/LIME plots

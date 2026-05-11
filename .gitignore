@@ -1,82 +1,113 @@
-# ============================================================
-# .gitignore — NLP Assignments
-# Muhammad Zohair Hassnain | 22F-3150
-# ============================================================
-
-# ── Python ──────────────────────────────────────────────────
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
-*.pyd
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
 
-# ── Virtual Environments ─────────────────────────────────────
-.env
-.venv/
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
-
-# ── Distribution / Packaging ─────────────────────────────────
+# Distribution / packaging
+bin/
 build/
+develop-eggs/
 dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# ── Jupyter Notebook ─────────────────────────────────────────
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
+# PyInstaller
+#  Typically Python scripts are bundled into a standalone executable using PyInstaller
+*.manifest
+*.spec
 
-# ── ML Model Files (large binaries) ─────────────────────────
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.pt
-*.pth
-models/*.pkl
-models/*.h5
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# ── Data Files (keep only small samples) ────────────────────
-# Allow the phishing sample dataset
-!Assignment-2-Phishing-Detection/data/phishing_dataset.csv
-
-# ── IDE / Editor ─────────────────────────────────────────────
-.idea/
-.vscode/
-*.swp
-*.swo
-*.sublime-project
-*.sublime-workspace
-
-# ── OS Generated ─────────────────────────────────────────────
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# ── Logs & Reports (generated) ───────────────────────────────
-*.log
-logs/
-*.out
-
-# ── Testing ──────────────────────────────────────────────────
-.pytest_cache/
-.coverage
+# Unit test / coverage reports
 htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
 
-# ── Misc ─────────────────────────────────────────────────────
-*.bak
-*.tmp
-.cache/
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Models and data files (suggested)
+*.pkl
+*.h5
+*.model
+*.bin
+*.pth
+*.joblib
+*.sav
+**/data/processed/*
+**/data/augmented/*
+!**/data/raw/sample.csv
